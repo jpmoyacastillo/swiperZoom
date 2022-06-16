@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
+
+import { ImageModalPageRoutingModule } from './image-modal-routing.module';
+
+import { ImageModalPage } from './image-modal.page';
 import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
@@ -12,9 +14,9 @@ import { SwiperModule } from 'swiper/angular';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    ImageModalPageRoutingModule,
     SwiperModule,
   ],
-  declarations: [HomePage],
+  declarations: [ImageModalPage],
 })
-export class HomePageModule {}
+export class ImageModalPageModule {}

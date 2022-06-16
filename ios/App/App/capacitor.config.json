@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "academyZoom",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
